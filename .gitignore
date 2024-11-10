@@ -1,0 +1,61 @@
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 빌드 파일
+/node_modules
+/dist
+/build
+/out
+/cache
+/etc
+
+# 라이노 및 빌딩 정보
+/Rihno
+/building_info
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS 관련 파일
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+
+# 특정 언어나 프레임워크에 대한 예외 처리
+# 예를 들어 Python의 가상환경 폴더
+venv/
+__pycache__/
+*.py[cod]
+
+# Git을 통해 추적하지 않도록 할 폴더 예시
+secrets/
+config/
+
+# 특정 파일 이름 패턴에 대한 예외 처리
+*.key
+*.pem
+*.crt
+*.p12
